@@ -50,6 +50,12 @@ jobs:
           - php: 8.2
             phpunit: phpunit/phpunit ^9
             can-fail: false
+          - php: 8.3
+            phpunit: phpunit/phpunit ^9
+            can-fail: false
+          - php: 8.4
+            phpunit: phpunit/phpunit ^9
+            can-fail: false
 
     steps:
       - name: "Checkout"
